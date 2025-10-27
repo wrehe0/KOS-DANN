@@ -1,14 +1,22 @@
 # Конспект занятий
 
-```
-> Со студентами составить навигацию по этому репозиторию средствами Markwodn!
-```
+## Навигация по проекту
+
+- [Todo](/Todo.md)
+- [Markdown](/Markdown.md)
+- [Bash](/content/Bash/)
+- [Docker](/content/Docker.md)
+- [Основы проектирования баз данных](/content/Basics_database_design/README.md)
+- [Обеспечение качества функционирования компьютерных систем](/content/Ensuring_quality_computer_systems_functioning/README.md)
+- [Поддержка и тестирование программных модулей](/content/SupportAndtesting_of_software_modules/README.md)
+
+[Минимальные технические требования для места разработчика](https://gitflic.ru/project/rurewa/cpp/file?branch=master)
 
 Минимальные требования к студентам
 
-1. Персональный компьютер и аудиогарнитура
+1. Персональный компьютер и аудиогарнитура. [Минимальные требования](https://gitflic.ru/project/rurewa/cpp/file?branch=master)
 1. **Git** (Git-Bash) [Git-Bash](https://git-scm.com/)
-1. Регистрация в Яндекса или VK
+1. Регистрация в [Яндекс](https://ya.ru/) или [VK](https://vk.com/)
 1. Сервис [gitflic.ru](gitflic.ru) и [Github](github.com)
 1. Создать публичный репозиторий на [gitflic.ru](gitflic.ru)
 1. **Dia** [Dia](https://ru.wikipedia.org/wiki/Dia)
@@ -19,6 +27,7 @@
 1. **Virtual Box** - для установки **Alt Образование 11** - для контроллера домена (групповые политики)
 [Virtual Box](https://www.oracle.com/virtualization/virtualbox/)
 [Альт Образование 11](https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/education/x86_64/alt-education-11.0-x86_64.iso)
+1. Нейросети [DeepSeek](https://chat.deepseek.com/) и [Cursor](https://cursor.com/)
 
 ### WSL 2.0 для Windows 10 (для работы с БД)
 
@@ -54,18 +63,88 @@
 
 [Основные команды для WSL](https://learn.microsoft.com/ru-ru/windows/wsl/basic-commands)
 
+### Docker
+
+1. [Загрузить Docker-Desktop](https://www.docker.com/products/docker-desktop/)
+1. Выполнять авторизацию в Docker-Desktop не обязательно, указать personal;
+1. Перезагрузить компьютер;
+1. Запустить Docker Desktop (можно добавить в автозагрузку для удобства);
+1. В Powershell выполнить ```docker images``` для показа установленных образов;
+1. Установить тестовый контейнер ```docker run hello-world```
+
+[Подробный урок по Docker для начинающих](https://gitflic.ru/project/rurewa/altlinux/blob?file=content%2FDocker%2FDocker.md&branch=master&mode=markdown)
+
 ### Virtual Box (Для организации контроллера домена)
 
 [Загрузить и установить Virtual Box](https://www.oracle.com/virtualization/virtualbox/)
 
+
+[Создание виртуальной машины в Virtual Box 7.0 для установки Альт Образование](https://rutube.ru/video/9f1c18dafa34d0c525bbca95d4002863/)
+
+[Установка Альт Образование 10 без UEFI](https://rutube.ru/video/8e0549a3a10f8881efb4260c77f4973b/)
+
 [Загрузить Альт Образование 11](https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/education/x86_64/alt-education-11.0-x86_64.iso)
+
+После установки **Альт Образование 11** необходимо выполнить:
+
+**Обновление ОС:**
+
+Открыть **Терминал** (консоль) по **Ctrl+Alt+T**
+
+Войти в консоль как **root**
+```shell
+su-
+```
+
+```shell
+epm ei --auto && epm full-upgrade -y
+```
+
+перезагрузить
+
+потом:
+
+```shell
+epmi --auto newt52 lshw yt-dlp btop htop nvtop apt-repo apt-https NetworkManager-tui eget wget fd git ncdu micro xclip xsel mc tree glxgears glmark2 neofetch fastfetch whois curl inxi net-tools arp-scan aria2 alterator-grub sysctl-conf-userns
+```
+
+Проверить систему Альт Образование 11
+
+```shell
+fastfetch
+```
+
+```shell
+inxi -F
+```
+
+### Настройки VSCode
+
+- Включить машстабирование по Ctrl+WheelMouse
+    - Settings -> Zoom -> Mouse Wheel Zoom
+- Отключить Миникарту в редакторе
+    - Settings -> Editor -› Minimap:
+
+Установка расширений
+
+- LiveServer (FiveServer)
+    - [LiveServer](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server)
+- CodeSnap
+    - [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
+- Trailing Spaces
+    - [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
+
+Открыть и закрыть встроенный терминал по **Ctrl+~**
+
 
 ### Рекомендуемые навыки и умения
 
 1. "Слепая печать" на стандартной клавиатуре
+    - [Онлайн-клавиатурный тренажер](https://stamina-online.com/ru/)
+1. Эффективная работа с текстом
 1. Технический английский
-1. Быть подписанным на тематические группы в Телеграм
-1. Markdown
+1. Читать тематические группы в Телеграм
+1. Git+Markdown
 
 ### Git
 
@@ -75,6 +154,8 @@
 ```shell
 git --version
 ```
+
+**Представиться системе Git (выполняется однократно, перед 1-м коммитом)**
 
 Команды представления системе Git
 
@@ -93,8 +174,10 @@ git config --global user.email "rurewa@mail.ru"
 #### 2. Клонировать удалённый репозиторий на свой компьютер
 
 ```shell
-git clone https://gitflic.ru/project/kizdano/1234.git
+git clone https://gitflic.ru/project/rurewa/mfua
 ```
+
+> этой командой будет склонирован на ваш компьютер мой репозиторий.
 
 #### 3. Открыть папку склонированного репозитория
 
@@ -119,7 +202,6 @@ git add .
 
 #### 8. Закоммитить
 
-
 ```shell
 git commit -m "Some message"
 ```
@@ -130,9 +212,15 @@ git commit -m "Some message"
 git push
 ```
 
+или, если не получилось с 1-го раза запушить, то:
+
+```shell
+git push -u origin master
+```
+
 #### 10. Проверить изменения на сайте удалённого репозитория
 
-Перейти на сайт репозитория и обновить страницу в браузере **Ctrl-R** либо **F5**
+Перейти на сайт проверяемого репозитория и обновить страницу в браузере **Ctrl-R** либо **F5**
 
 #### 11. Получить изменения из удалённого репозитория
 
@@ -214,6 +302,8 @@ git log
 
 #### Основные команды bash (командная строка, консоль)
 
+**Bash** - командный интерпретатор и скриптовый язык программирования
+
 Показать текущее расположение
 
 ```pwd```
@@ -239,6 +329,67 @@ git log
 Вернуться в папку пользователя по умолчанию
 
 ```cd ~```
+
+Создать пустой каталог
+```shell
+mkdir emptyDir
+```
+
+Создать пустой тектовый файл
+```shell
+touch emptyFile.txt
+```
+
+Показать тип файла
+```shell
+file enyFile.txt
+```
+
+Показать больше информации о файле
+```shell
+stat file1.txt
+```
+
+Показать все ранее введённые команды:
+```shell
+history
+```
+
+Показать содержимое текстового файла без его открытия
+```shell
+cat file1.txt
+```
+
+Пролистать большой текст клавишами ВВЕРХ/ВНИЗ
+```shell
+cat file1.txt | less
+```
+
+> Выйти из режима less по клавише Q
+
+Редактирование текстового файла
+```shell
+nano file1.txt
+```
+
+> Сохранить текст по **Ctrl+S**, выйти из nano по **Ctrl+X**
+
+Можно ещё установить тектовый редактор Micro и редактировать файлы в нём:
+
+```shell
+apt install micro
+```
+
+Запустить консольный текстовый редактор **Micro** для создания и редактирования текстового файла
+```shell
+micro main.cpp
+```
+
+> Соранить текст по **Ctrl+S**, выйти из редактора по **Ctrl+Q**
+
+Установить команду **tree** в Windows
+
+[Tree](https://github.com/chocolatey/choco/releases?ysclid=mh035mg6en297039295)
 
 #### Работа с git-ветками
 
@@ -306,3 +457,5 @@ git log
 1. Обычно небольшие по объёму файлы,  < 40 mb.
 1. Изображения, документы, mp3, видео
 1. Все файлы с именами латинскими буквами без пробелов
+
+[Мои заметки по базовой работе с Git](https://gitflic.ru/project/rurewa/education/blob?file=content%2FGit%2FREADME.md&branch=master&mode=markdown)

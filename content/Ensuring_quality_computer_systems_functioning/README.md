@@ -2,6 +2,17 @@
 
 # Обеспечение качества функционирования компьютерных систем
 
+## Навигация по Предмету
+
+[План учебной дисциплины](/content/Ensuring_quality_computer_systems_functioning/Todo.md)
+
+[systemd и журнал (Journal)](/content/Ensuring_quality_computer_systems_functioning/systemdANDJournal.md)
+
+[Журналы событий Windows](/content/Ensuring_quality_computer_systems_functioning/WindowsEventLog.md)
+
+[]()
+
+
 ## Лекция 1
 
 Вопрос, который затрагивает самую суть дисциплины "Обеспечение качества функционирования компьютерных систем". Давайте разберем его системно, соединив многоуровневую модель качества, объекты уязвимости и общую цель дисциплины.

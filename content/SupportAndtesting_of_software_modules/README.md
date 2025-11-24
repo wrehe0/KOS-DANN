@@ -12,10 +12,12 @@
 
 [Основы проектирования баз данных](/content/Basics_database_design/README.md)
 
-[Обеспечение качества функционирования компьютерных систем](/content/Ensuring_quality_computer_systems_functioning/README.md)
+[Проверка и отладка программного кода на C++](/content/SupportAndTesting_of_software_modules/Checking_and_debuggingCPPcode.md)
 
 []()
 
-[]()
+## Практические и лабораторные задания для студентов
+
+[Самостоятельная работа: "Создание системы отчетов о тестировании программного модуля"](/content/SupportAndtesting_of_software_modules/CreatingSoftwareModuleTestingReportingSystem.md)
 
 > Вместе со студентами показать как формируется навигация по репозиторию средствами Markdown!

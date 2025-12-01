@@ -1,4 +1,6 @@
 #!/bin/bash
+# condition.sh
+# Сравнение чисел
 echo "Введите число:"
 read number
 

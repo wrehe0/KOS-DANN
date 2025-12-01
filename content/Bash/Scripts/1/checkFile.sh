@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# checkFile.sh
+# Проверка существования файла
 echo "Введите имя файла: "
 read filename
 

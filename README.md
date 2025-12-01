@@ -77,7 +77,7 @@ git config --global user.email "rurewa@mail.ru"
     - Проверка подсистемы WSL 2.0 командой `wsl --version`
     - Обновить WSL 2.0 командой `wsl --update`
     - Установить WSL 2.0 `wsl --install`
-    - Когда система предложит указать имя пользователя UNIX, надо указать `user` и Enter
+    - Когда система предложит указать имя пользователя **UNIX**, надо указать `user` и Enter
     - Пароль польователя `user` - `123` (при наборе пароля он никак не отображается, но всё равно набирается) и **Enter**. Повтори пароль и **Enter**
     - Перезагрузить компьютер
     - После перезагрузки найти **Ubuntu** можно из **Главного меню** и запустить её как обычное приложение **Windows**
@@ -189,14 +189,14 @@ inxi -F
 
 Открыть и закрыть встроенный терминал по **Ctrl+~**
 
-(Подробней о настройках VSCode)[https://gitflic.ru/project/rurewa/education/blob?file=content%2FProgramming%2FVCode.md&commit=b7894efff8eadc1c1fc442028810b950c8d6a432&mode=markdown]
+[Подробней о настройках VSCode](https://gitflic.ru/project/rurewa/education/blob?file=content%2FProgramming%2FVCode.md&commit=b7894efff8eadc1c1fc442028810b950c8d6a432&mode=markdown)
 
 ### Рекомендуемые навыки и умения
 
 1. "Слепая печать" на стандартной клавиатуре
     - [Онлайн-клавиатурный тренажер](https://stamina-online.com/ru/)
 1. Эффективная работа с текстом (важные клавиатурные сокращения)
-1. Технический английский
+1. Технический английский [Золотой плейлист А. Бербис](https://vkvideo.ru/playlist/-227037029_21?ysclid=mictnz3gl4831947556)
 1. Читать тематические группы в Телеграм
 1. Git+Markdown
 

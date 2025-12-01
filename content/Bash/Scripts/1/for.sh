@@ -1,5 +1,6 @@
 #!/bin/bash
-# Простой for
+# for.sh
+# Несколько разных циклов for
 for i in 1 2 3 4 5; do
     echo "Итерации: $i"
     sleep 0.5

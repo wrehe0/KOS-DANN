@@ -16,7 +16,12 @@
 ## Навигация по документу
 
 - [Git](#git)
-- 
+- [WSL 2.0 для Windows 10](#wsl-20-для-windows-10-для-работы-с-бд)
+- [Docker](#docker)
+- [Virtual Box (Для организации контроллера домена)](#virtual-box-для-организации-контроллера-домена)
+- [Минимальные настройки VSCode](#минимальные-настройки-vscode)
+- [Вопросы к экзамену](#вопросы-к-экзамену)
+- [Рекомендуемые навыки и умения](#рекомендуемые-навыки-и-умения)
 
 **Минимальные требования к студентам:**
 
@@ -25,7 +30,7 @@
 1. Регистрация в [Яндекс](https://ya.ru/) или [VK](https://vk.com/)
 1. Сервис [gitflic.ru](gitflic.ru) и [Github](github.com)
 1. Создать публичный репозиторий на [gitflic.ru](gitflic.ru)
-1. **Dia** [Dia](https://ru.wikipedia.org/wiki/Dia)
+1. **Dia** [Dia](https://ru.wikipedia.org/wiki/Dia) (не обязательно)
 1. Установить команду **Tree** в Windows:
     - [Chocolatey - это основанный на CLI менеджер пакетов для Windows, который чем-то похож на apt-get](https://github.com/chocolatey/choco/releases?ysclid=mh035mg6en297039295)
     - В Powershell выполнить установку **Tree**:
@@ -179,6 +184,7 @@ inxi -F
     - **Settings** -> **Zoom** -> **Mouse Wheel Zoom**
 - Отключить Миникарту в редакторе
     - **Settings** -> **Editor** -› **Minimap:**
+- Велючить предложения в интегрированном терминале VSCdoe **Settings** -> `terminal.integrated.suggest.enabled`
 
 Установка расширений
 

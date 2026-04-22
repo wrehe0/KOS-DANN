@@ -126,3 +126,5 @@ chmod +x run.sh
 ```shell
 docker logs <container_id>
 ```
+
+![alt text](./img/image-5.png)

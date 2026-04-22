@@ -49,3 +49,5 @@ docker run --rm pascal-app
 ```
 
 > Вы можете увидеть: `Hello from Pascal in Docker! 🐳`
+
+![alt text](./img/image-4.png)

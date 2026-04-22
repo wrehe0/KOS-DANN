@@ -65,3 +65,4 @@ docker run -it --entrypoint sh cpp-hello
 ```shell
 exit
 ```
+![alt text](./img/2026-04-22_09-09-21.png)

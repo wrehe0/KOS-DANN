@@ -115,3 +115,5 @@ docker run -it --rm my-ts-app
 ```
 
 > Вы можете увидеть: `Hello, Developer! Welcome to TypeScript in Docker! 🐳`
+
+![alt text](./img/image-3.png)

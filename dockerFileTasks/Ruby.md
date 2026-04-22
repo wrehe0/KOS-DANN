@@ -70,3 +70,5 @@ docker run -it --rm ruby-app
 ```
 
 > Вы можете увидеть - 🐱 Случайный факт о котах: A cat's tail can contain up to 20,000 hairs.
+
+![alt text](./img/image.png)

@@ -72,3 +72,5 @@ docker run -d -p 8081:80 --name my-php-app php-app
 ### 5. Проверка работы
 
 [Откройте браузер и перейдите по адресу http://localhost:8081](http://localhost:8081)
+
+![alt text](./img/image-1.png)

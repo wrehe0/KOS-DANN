@@ -108,3 +108,5 @@ docker run --rm my-java-app
 ```
 
 Вы должны увидеть: `Hello, World! from Dockerized Java! 🐳`
+
+![alt text](./img/java7.png)

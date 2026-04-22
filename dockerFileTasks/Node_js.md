@@ -99,3 +99,4 @@ docker run -d -p 3000:3000 --name my-node-app my-node-app
 ```shell
 docker run -d -p 3000:3000 -v $(pwd):/app --name my-node-app-dev my-node-app
 ```
+![alt text](./img/image-2.png)

@@ -121,3 +121,4 @@ docker run -it --entrypoint bash ftxui-demo
 ```shell
 exit
 ```
+![alt text](./img/2026-04-22_09-28-31.png)

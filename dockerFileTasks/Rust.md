@@ -92,3 +92,4 @@ docker run -it --rm --entrypoint sh rust-app
 ```shell
 ./rust-app
 ```
+![alt text](./img/2026-04-22_09-57-03.png)

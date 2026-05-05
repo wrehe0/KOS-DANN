@@ -3,9 +3,9 @@
 ## Репозитории
 
 - [Go](https://github.com/wrehe0/my-go-app/blob/main/README.md)
-- [NodeJS](https://github.com/wrehe0/nodejs-repo/blob/main/README.md)
-- [PHP](https://github.com/wrehe0/php-repo/blob/main/README.md)
+- [NodeJS](https://github.com/wrehe0/my-node-app/blob/main/README.md)
+- [PHP](https://github.com/wrehe0/my-php-app/blob/main/README.md)
 - [Python](https://github.com/wrehe0/my-python-app/blob/main/README.md)
-- [Rust](https://github.com/wrehe0/rust-repo/blob/main/README.md)
-- [C++](https://github.com/wrehe0/cpp-repo/blob/main/README.md)
+- [Rust](https://github.com/wrehe0/my-rust-app/blob/main/README.md)
+- [C++](https://github.com/wrehe0/my-cpp-app/blob/main/README.md)
 - [Hello](https://github.com/wrehe0/hellom/blob/main/README.md)

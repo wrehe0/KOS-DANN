@@ -9,3 +9,4 @@
 - [Rust](https://github.com/wrehe0/my-rust-app/blob/main/README.md)
 - [C++](https://github.com/wrehe0/my-cpp-app/blob/main/README.md)
 - [Hello](https://github.com/wrehe0/hellom/blob/main/README.md)
+- [java](https://github.com/wrehe0/hello-java)

@@ -16,4 +16,5 @@
     - [CI/CD на Go с публикацией в GHCR](https://github.com/wrehe0/hello-go)
     - [CI/CD на Go с публикацией бинарников в GitHub Releases](https://github.com/wrehe0/hell-go)
     - [Python+PyInstaller](https://github.com/wrehe0/hello-python)
-    - [CI/CD на C#/.NET с публикацией бинарников в GitHub Releases](/content/DevOps/CI_CD/Pipelines/Dotnet.md)not done
+    - [CI/CD на C#/.NET с публикацией бинарников в GitHub Releases](https://github.com/wrehe0/hello-dotnet)
+    - [CI/CD с Go GUI с публикацией бинарников в GitHub Releases](/content/DevOps/CI_CD/Pipelines/CD_Go_GUI.md)

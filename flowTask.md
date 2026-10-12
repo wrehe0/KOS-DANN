@@ -22,4 +22,4 @@
 
 -  CI/CD (Deploy) not done
     - [CI/CD статического сайта (HTML + CSS + JS) на GitHub Pages](https://github.com/wrehe0/hello-static)
-    - [CI/CD на GitHub Pages](/content/DevOps/CI_CD/Pipelines/CI_Deploy_GitHub_Pages.md)
+    - [CI/CD на GitHub Pages](https://github.com/wrehe0/hello-pages)

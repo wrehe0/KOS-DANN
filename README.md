@@ -22,7 +22,7 @@
 
 **Минимально-допустимые технические требования к рабочему пространству современного IT-студента**
 
-- Компьютер: CPU >= **Intel i3** или аналогичный от **AMD**, >= 8 Gb RAM, HDD/SSD >= 256 Gb + монитор > 19’ (диагональ);
+- Компьютер: CPU >= **Intel i3** 5-го поколения или аналогичный от **AMD**, >= 8 Gb RAM, HDD/SSD >= 256 Gb + монитор > 19’ (диагональ);
 - Операционная система - **Linux**: **Alt Linux 11** (лучше с KDE) или что-нибудь из семейства **Ubuntu** 22.04/24.04-64 bit (или её деривативы). **MacOS** 15 Sequoia+, **Windows** 10+ (версия 22H2 (сборка 19045), `WSL2.0` или другая виртуальная машина с **Linux**, например `Virtual Box`). Регистрация на [Github.com](github.com), [Gitflic.ru](gitflic.ru), [Яндекс](https://ya.ru/);
 - Хороший интернет;
 - Аудиогарнитура (наушники+микрофон).
@@ -158,7 +158,7 @@ git config --global user.email "rosa@mail.ru"
 
 - Включение дополнения `Подсистема Windows для Linux`
     - Выполнить `Win + R`, в диалоговом окне ввести `appwiz.cpl` и нажать **Enter**.
-    - `Программы и компоненты` -> `Включение и отключение дополнительных компонентов Windows` -> поставить флажок в `Подсистема Windows для Linux`
+    - `Программы и компоненты` -> `Включение и отключение дополнительных компонентов Windows` -> поставить флажок в **Подсистема Windows для Linux** и **Платформа виртуальной машины**
     - Или выполните в **Windows PowerShell** (Администратор) команду: `Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform`
     - Перезагрузить компьютер в PowerShell командой `Restart-Computer`
     - Запустить **Windows PowerShell** (Администратор)
@@ -179,9 +179,10 @@ git config --global user.email "rosa@mail.ru"
             - `sl`
             - `ascii -d`
             - `inxi -F`
-            - `cmatrix`
+            - `cmatrix` - выйти из "матрицы" по клавише **Q**
             - `cacafire`
     - Для старых версий **Windows 10**. **(Не обязательно!)** Если обновления **Ubuntu** завершаться ошибкой, то надо в **Windows PowerShell** (Администратор) задать версию **WSL 2** по умолчанию: `wsl --set-default-version 2`
+    - Для удаления Ubuntu WSL выполнить: `wsl --unregister Unbuntu` и `winget uninstall Ubuntu` и перезагрузить компьютер
 
 > Если компьютер не тянет для **WSL 2.0** и **Docker**, то можно попробовать выполнять задачи в [**Codespace**](https://github.com/features/codespaces) (но не желательно, т.к. очень ограниченный функционал!)
 

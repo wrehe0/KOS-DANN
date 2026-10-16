@@ -20,6 +20,6 @@
     - [CI/CD с Go GUI с публикацией бинарников в GitHub Releases](https://github.com/wrehe0/hello-gui)
     
 
--  CI/CD (Deploy) not done
+-  CI/CD (Deploy) 
     - [CI/CD статического сайта (HTML + CSS + JS) на GitHub Pages](https://github.com/wrehe0/hello-static)
     - [CI/CD на GitHub Pages](https://github.com/wrehe0/hello-pages)

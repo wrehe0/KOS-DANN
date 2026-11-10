@@ -1,0 +1,5 @@
+2026-11-10T07:17:45.352141Z	    9 Query	SELECT DATABASE()
+2026-11-10T07:17:52.878631Z	    9 Query	SELECT c.name, o.total
+2026-11-10T07:19:55.731478Z	    9 Query	SELECT DATABASE()
+2026-11-10T07:19:55.748225Z	    9 Query	SELECT * FROM customers
+2026-11-10T07:19:56.752296Z	    9 Query	SELECT c.name, o.amount FROM customers c JOIN orders o ON c.id = o.customer_id

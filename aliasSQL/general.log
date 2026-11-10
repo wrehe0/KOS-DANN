@@ -1,0 +1,23 @@
+/usr/sbin/mysqld, Version: 8.0.46 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2026-11-10T07:17:45.352141Z	    9 Query	SELECT DATABASE()
+2026-11-10T07:17:45.352609Z	    9 Init DB	alias_db
+2026-11-10T07:17:45.354497Z	    9 Query	show databases
+2026-11-10T07:17:45.356164Z	    9 Query	show tables
+2026-11-10T07:17:45.357472Z	    9 Field List	customers 
+2026-11-10T07:17:45.357735Z	    9 Field List	employees 
+2026-11-10T07:17:45.358030Z	    9 Field List	orders 
+2026-11-10T07:17:52.878631Z	    9 Query	SELECT c.name, o.total
+FROM customers c
+JOIN (
+    SELECT customer_id, SUM(amount) AS total
+    FROM orders
+    GROUP BY customer_id
+) o ON c.id = o.customer_id
+WHERE o.total > 2000
+2026-11-10T07:19:55.731478Z	    9 Query	SELECT DATABASE()
+2026-11-10T07:19:55.736514Z	    9 Init DB	alias_db
+2026-11-10T07:19:55.748225Z	    9 Query	SELECT * FROM customers
+2026-11-10T07:19:56.752296Z	    9 Query	SELECT c.name, o.amount FROM customers c JOIN orders o ON c.id = o.customer_id
+2026-11-10T07:20:10.880857Z	    9 Quit	

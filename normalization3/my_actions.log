@@ -1,0 +1,145 @@
+2026-11-12T07:40:30.035289Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.047837Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.051876Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.057458Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.061474Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.066552Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.070568Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.075237Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.078666Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.082560Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.086469Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.090724Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.096216Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.102660Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.109249Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.113675Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.121012Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.125499Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.129107Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.132721Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.136823Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.154887Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.158680Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.165211Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.170705Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.175212Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.179315Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.183389Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.187084Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.191624Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.196474Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.196520Z	    6 Query	INSERT IGNORE INTO server_cost(cost_name) VALUES
+2026-11-12T07:40:30.203038Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.203096Z	    6 Query	INSERT IGNORE INTO engine_cost(engine_name, device_type, cost_name) VALUES
+2026-11-12T07:40:30.209005Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.213450Z	    6 Query	DROP PREPARE stmt;
+2026-11-12T07:40:30.216988Z	    6 Query	CREATE USER root@localhost;
+2026-11-12T07:40:30.224654Z	    6 Query	INSERT IGNORE INTO mysql.global_grants VALUES ('root', 'localhost', 'AUDIT_ABORT_EXEMPT', 'Y');
+2026-11-12T07:40:30.226841Z	    6 Query	INSERT IGNORE INTO mysql.global_grants VALUES ('root', 'localhost', 'FIREWALL_EXEMPT', 'Y')
+2026-11-12T07:40:30.489579Z	    6 Query	DELETE FROM mysql.plugin WHERE name='mysqlx';
+2026-11-12T07:40:30.679287Z	    6 Query	CREATE DATABASE IF NOT EXISTS sys DEFAULT CHARACTER SET utf8mb4;
+2026-11-12T07:40:30.681200Z	    6 Query	ALTER DATABASE sys CHARACTER SET utf8mb4;
+2026-11-12T07:40:30.686173Z	    6 Query	INSERT IGNORE INTO mysql.db VALUES
+2026-11-12T07:40:30.688206Z	    6 Query	INSERT IGNORE INTO mysql.tables_priv VALUES
+2026-11-12T07:40:30.715896Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' TRIGGER sys_config_insert_set_user BEFORE INSERT on sys_config
+2026-11-12T07:40:30.721124Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' TRIGGER sys_config_update_set_user BEFORE UPDATE on sys_config
+2026-11-12T07:40:30.725390Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION extract_schema_from_file_name (
+2026-11-12T07:40:30.727728Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION extract_table_from_file_name (
+2026-11-12T07:40:30.728660Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION sys.format_bytes (
+2026-11-12T07:40:30.731041Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION format_path (
+2026-11-12T07:40:30.733728Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION format_statement (
+2026-11-12T07:40:30.735295Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION sys.format_time (
+2026-11-12T07:40:30.737556Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION list_add (
+2026-11-12T07:40:30.739724Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION list_drop (
+2026-11-12T07:40:30.742028Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION ps_is_account_enabled (
+2026-11-12T07:40:30.744090Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION ps_is_consumer_enabled (
+2026-11-12T07:40:30.746891Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION ps_is_instrument_default_enabled (
+2026-11-12T07:40:30.748038Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION ps_is_instrument_default_timed (
+2026-11-12T07:40:30.751761Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION ps_is_thread_instrumented (
+2026-11-12T07:40:30.753681Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION sys.ps_thread_id (
+2026-11-12T07:40:30.755345Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION ps_thread_account (
+2026-11-12T07:40:30.757012Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION ps_thread_stack (
+2026-11-12T07:40:30.760138Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION ps_thread_trx_info (
+2026-11-12T07:40:30.764267Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION sys_get_config (
+2026-11-12T07:40:30.767649Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION version_major ()
+2026-11-12T07:40:30.768670Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION version_minor ()
+2026-11-12T07:40:30.770189Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' FUNCTION version_patch ()
+2026-11-12T07:40:31.188734Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE create_synonym_db (
+2026-11-12T07:40:31.190986Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE execute_prepared_stmt (
+2026-11-12T07:40:31.199488Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE diagnostics (
+2026-11-12T07:40:31.205965Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_statement_avg_latency_histogram ()
+2026-11-12T07:40:31.210894Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_trace_statement_digest (
+2026-11-12T07:40:31.214378Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_trace_thread (
+2026-11-12T07:40:31.218330Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_disable_background_threads ()
+2026-11-12T07:40:31.221581Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_disable_consumer (
+2026-11-12T07:40:31.225399Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_disable_instrument (
+2026-11-12T07:40:31.229759Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_disable_thread (
+2026-11-12T07:40:31.232879Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_enable_background_threads ()
+2026-11-12T07:40:31.235183Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_enable_consumer (
+2026-11-12T07:40:31.238851Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_enable_instrument (
+2026-11-12T07:40:31.243608Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_enable_thread (
+2026-11-12T07:40:31.247509Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_reload_saved ()
+2026-11-12T07:40:31.251341Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_reset_to_default (
+2026-11-12T07:40:31.256525Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_save (
+2026-11-12T07:40:31.261336Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_show_disabled (
+2026-11-12T07:40:31.263613Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_show_disabled_consumers ()
+2026-11-12T07:40:31.265671Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_show_disabled_instruments ()
+2026-11-12T07:40:31.268550Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_show_enabled (
+2026-11-12T07:40:31.273150Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_show_enabled_consumers ()
+2026-11-12T07:40:31.276308Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_setup_show_enabled_instruments ()
+2026-11-12T07:40:31.278954Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE ps_truncate_all_tables (
+2026-11-12T07:40:31.281667Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE statement_performance_analyzer (
+2026-11-12T07:40:31.287165Z	    6 Query	CREATE DEFINER='mysql.sys'@'localhost' PROCEDURE table_exists (
+2026-11-12T07:40:34.482846Z	    8 Query	ALTER USER 'root'@'localhost' IDENTIFIED BY <secret>
+2026-11-12T07:40:34.494668Z	    8 Query	CREATE USER 'root'@'%' IDENTIFIED BY <secret>
+2026-11-12T07:40:34.507914Z	    8 Query	DROP DATABASE IF EXISTS test
+2026-11-12T07:40:34.508294Z	    8 Query	SELECT DATABASE()
+2026-11-12T07:40:34.525857Z	    9 Query	SELECT @@datadir, @@pid_file
+2026-11-12T07:40:50.983547Z	    8 Query	SHOW VARIABLES LIKE 'general_log'
+2026-11-12T07:40:50.988098Z	    8 Query	SHOW VARIABLES LIKE 'general_log_file'
+2026-11-12T07:40:51.970191Z	    8 Query	SHOW VARIABLES LIKE 'log_output'
+2026-11-12T07:41:01.267342Z	    8 Query	CREATE DATABASE sales_norm
+2026-11-12T07:41:02.112804Z	    8 Query	SELECT DATABASE()
+2026-11-12T07:41:06.614679Z	    8 Query	CREATE TABLE employee_sales_bad (
+2026-11-12T07:41:10.801146Z	    8 Query	INSERT INTO employee_sales_bad VALUES
+2026-11-12T07:41:14.161775Z	    8 Query	SELECT COUNT(*) FROM employee_sales_bad
+2026-11-12T07:41:14.904196Z	    8 Query	SELECT * FROM employee_sales_bad ORDER BY employee_id, sale_month, department_id
+2026-11-12T07:41:36.566213Z	    8 Query	SELECT SUM(sales_amount) AS total_sum FROM employee_sales_bad
+2026-11-12T07:42:21.676516Z	    8 Query	SELECT SUM(sales_amount) AS total_sum FROM employee_sales_bad
+2026-11-12T07:42:37.207335Z	    9 Query	SHOW VARIABLES LIKE 'gtid_mode'
+2026-11-12T07:42:37.210468Z	    9 Query	SELECT LOGFILE_GROUP_NAME, FILE_NAME, TOTAL_EXTENTS, INITIAL_SIZE, ENGINE, EXTRA FROM INFORMATION_SCHEMA.FILES WHERE ENGINE = 'ndbcluster' AND FILE_TYPE = 'UNDO LOG' AND FILE_NAME IS NOT NULL AND LOGFILE_GROUP_NAME IS NOT NULL AND LOGFILE_GROUP_NAME IN (SELECT DISTINCT LOGFILE_GROUP_NAME FROM INFORMATION_SCHEMA.FILES WHERE ENGINE = 'ndbcluster' AND FILE_TYPE = 'DATAFILE' AND TABLESPACE_NAME IN (SELECT DISTINCT TABLESPACE_NAME FROM INFORMATION_SCHEMA.PARTITIONS WHERE TABLE_SCHEMA IN ('sales_norm'))) GROUP BY LOGFILE_GROUP_NAME, FILE_NAME, ENGINE, TOTAL_EXTENTS, INITIAL_SIZE ORDER BY LOGFILE_GROUP_NAME
+2026-11-12T07:42:37.214533Z	    9 Query	SELECT DISTINCT TABLESPACE_NAME, FILE_NAME, LOGFILE_GROUP_NAME, EXTENT_SIZE, INITIAL_SIZE, ENGINE FROM INFORMATION_SCHEMA.FILES WHERE FILE_TYPE = 'DATAFILE' AND TABLESPACE_NAME IN (SELECT DISTINCT TABLESPACE_NAME FROM INFORMATION_SCHEMA.PARTITIONS WHERE TABLE_SCHEMA IN ('sales_norm')) ORDER BY TABLESPACE_NAME, LOGFILE_GROUP_NAME
+2026-11-12T07:42:37.215596Z	    9 Query	SHOW VARIABLES LIKE 'ndbinfo\_version'
+2026-11-12T07:42:37.222645Z	    9 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `employee_sales_bad`
+2026-11-12T07:42:37.224789Z	    9 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'sales_norm' AND TABLE_NAME = 'employee_sales_bad'
+2026-11-12T07:43:06.492806Z	    8 Query	CREATE TABLE employees (
+2026-11-12T07:43:06.561881Z	    8 Query	CREATE TABLE departments (
+2026-11-12T07:43:07.664053Z	    8 Query	CREATE TABLE employee_sales (
+2026-11-12T07:43:11.387046Z	    8 Query	INSERT INTO employees (employee_id, employee_name)
+2026-11-12T07:43:11.402902Z	    8 Query	INSERT INTO departments (department_id, department_name)
+2026-11-12T07:43:12.190255Z	    8 Query	INSERT INTO employee_sales (employee_id, sale_month, department_id, sales_amount)
+2026-11-12T07:43:20.481421Z	    8 Query	SELECT COUNT(DISTINCT employee_id) AS employees_before FROM employee_sales_bad
+2026-11-12T07:43:20.481979Z	    8 Query	SELECT COUNT(*) AS employees_after FROM employees
+2026-11-12T07:43:20.483417Z	    8 Query	SELECT COUNT(DISTINCT department_id) AS departments_before FROM employee_sales_bad
+2026-11-12T07:43:20.484981Z	    8 Query	SELECT COUNT(*) AS departments_after FROM departments
+2026-11-12T07:43:20.488905Z	    8 Query	SELECT COUNT(*) AS sales_before FROM employee_sales_bad
+2026-11-12T07:43:21.254898Z	    8 Query	SELECT COUNT(*) AS sales_after FROM employee_sales
+2026-11-12T07:43:33.914849Z	    8 Query	SELECT 'before' AS stage, SUM(sales_amount) AS total_sum
+2026-11-12T07:43:34.756744Z	    8 Query	SELECT 'before' AS stage, SUM(sales_amount) AS total_sum
+2026-11-12T07:43:50.458149Z	    8 Query	SELECT e.employee_name, es.sale_month, SUM(es.sales_amount) AS total_sales
+2026-11-12T07:43:58.473004Z	    8 Query	SELECT d.department_name, SUM(es.sales_amount) AS total_sales
+2026-11-12T07:44:08.309322Z	    8 Query	SELECT e.employee_name, es.sale_month, d.department_name, es.sales_amount
+2026-11-12T07:44:21.098627Z	    8 Query	RENAME TABLE employee_sales_bad TO employee_sales_bad_backup
+2026-11-12T07:44:28.360994Z	   10 Query	SHOW VARIABLES LIKE 'gtid_mode'
+2026-11-12T07:44:28.363194Z	   10 Query	SELECT LOGFILE_GROUP_NAME, FILE_NAME, TOTAL_EXTENTS, INITIAL_SIZE, ENGINE, EXTRA FROM INFORMATION_SCHEMA.FILES WHERE ENGINE = 'ndbcluster' AND FILE_TYPE = 'UNDO LOG' AND FILE_NAME IS NOT NULL AND LOGFILE_GROUP_NAME IS NOT NULL AND LOGFILE_GROUP_NAME IN (SELECT DISTINCT LOGFILE_GROUP_NAME FROM INFORMATION_SCHEMA.FILES WHERE ENGINE = 'ndbcluster' AND FILE_TYPE = 'DATAFILE' AND TABLESPACE_NAME IN (SELECT DISTINCT TABLESPACE_NAME FROM INFORMATION_SCHEMA.PARTITIONS WHERE TABLE_SCHEMA IN ('sales_norm'))) GROUP BY LOGFILE_GROUP_NAME, FILE_NAME, ENGINE, TOTAL_EXTENTS, INITIAL_SIZE ORDER BY LOGFILE_GROUP_NAME
+2026-11-12T07:44:28.364820Z	   10 Query	SELECT DISTINCT TABLESPACE_NAME, FILE_NAME, LOGFILE_GROUP_NAME, EXTENT_SIZE, INITIAL_SIZE, ENGINE FROM INFORMATION_SCHEMA.FILES WHERE FILE_TYPE = 'DATAFILE' AND TABLESPACE_NAME IN (SELECT DISTINCT TABLESPACE_NAME FROM INFORMATION_SCHEMA.PARTITIONS WHERE TABLE_SCHEMA IN ('sales_norm')) ORDER BY TABLESPACE_NAME, LOGFILE_GROUP_NAME
+2026-11-12T07:44:28.365940Z	   10 Query	SHOW VARIABLES LIKE 'ndbinfo\_version'
+2026-11-12T07:44:28.371509Z	   10 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `departments`
+2026-11-12T07:44:28.373422Z	   10 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'sales_norm' AND TABLE_NAME = 'departments'
+2026-11-12T07:44:28.376925Z	   10 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `employee_sales`
+2026-11-12T07:44:28.378580Z	   10 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'sales_norm' AND TABLE_NAME = 'employee_sales'
+2026-11-12T07:44:28.382484Z	   10 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `employee_sales_bad_backup`
+2026-11-12T07:44:28.384808Z	   10 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'sales_norm' AND TABLE_NAME = 'employee_sales_bad_backup'
+2026-11-12T07:44:28.388565Z	   10 Query	SELECT /*!40001 SQL_NO_CACHE */ * FROM `employees`
+2026-11-12T07:44:28.390334Z	   10 Query	SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'sales_norm' AND TABLE_NAME = 'employees'
